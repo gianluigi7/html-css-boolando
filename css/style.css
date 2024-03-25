@@ -99,3 +99,12 @@ img{
 .heart:hover{
     color: red;
 }
+.hover-image{
+    display: none;
+}
+.content:hover .main-image{
+    display: none;
+}
+.content:hover .hover-image{
+    display: block;
+}
