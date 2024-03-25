@@ -107,4 +107,12 @@ img{
 }
 .content:hover .hover-image{
     display: block;
+}.red{
+    color: red;
+}.gray{
+    color: rgb(90, 90, 90);
+}.linea{
+    text-decoration: line-through;
+}.lightgray{
+    color: rgb(117, 114, 114);
 }
