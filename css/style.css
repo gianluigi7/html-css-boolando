@@ -44,6 +44,9 @@ header{
  .bg-red{
     background-color: red;
  }
+ .bg-green{
+    background-color: rgb(6, 148, 6);
+ }
  .white{
     color: white;
  }
@@ -52,8 +55,9 @@ header{
     border: none;
     color: white;
  }
- img{
+ .Boolean{
     height: 25px;
+    width: auto;
  } 
 .trb{
     background-color: transparent;
@@ -64,7 +68,34 @@ main{
     padding-top: 100px;
 }
 .content{
-    background-color: aqua;
-    height: 600px;
     margin-bottom: 30px;
+    position: relative;
+} 
+img{
+    height: 540px;
+    width: 100%;
+}
+.discount-label{
+    position: absolute;
+    top: 480px;
+    left: 0;
+    color: white;
+    padding: 4px 8px;
+}
+.sostenibilità{
+    position: absolute;
+    top: 480px;
+    left:56px;
+    color:white;
+    padding: 4px 8px;
+}
+.heart{
+    position: absolute;
+    padding: 7px 10px;
+    background-color: white;
+    top: 10px;
+    right: 0px;
+}
+.heart:hover{
+    color: red;
 }
