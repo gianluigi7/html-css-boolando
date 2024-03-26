@@ -115,4 +115,7 @@ img{
     text-decoration: line-through;
 }.lightgray{
     color: rgb(117, 114, 114);
-}
+} 
+ body{
+    font-family: Arial, sans-serif;
+ }
